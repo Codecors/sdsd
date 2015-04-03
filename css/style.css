@@ -497,7 +497,7 @@
 			.box .image.featured img {
 				border-radius: 0;
 				display: block;
-			/*	width: 100%; */
+				width: 100%;
 			}
 
 			.box .image.featured:first-child {
@@ -558,31 +558,39 @@
 			}
 
 			.icon.major.accent1 {
-                background-image: url("/images/icon2.png");
-				/* background: #666; */
+				background: #666;
 				color: #ffffff;
 			}
 
 			.icon.major.accent2 {
-                background-image: url("/images/icon1.png");
-			/*	background: #e89980; */
+                background-image: url("../images/icon1.png");
+                background-position: center center;
+                background-repeat: no-repeat;
+				/* background: #e89980; */
 				color: #ffffff;
 			}
 
 			.icon.major.accent3 {
-                background-image: url("/images/icon3.png");
-				background: #7fcdb8;
+                background-image: url("../images/icon3.png");
+                background-position: center center;
+                background-repeat: no-repeat;
+			/*	background: #7fcdb8;*/
 				color: #ffffff;
 			}
 
 			.icon.major.accent4 {
-                background-image: url("/images/icon4.png");
-				background: #90b0ba;
+                background-image: url("../images/icon4.png");
+                background-position: center center;
+                background-repeat: no-repeat;
+			/*	background: #90b0ba; */
 				color: #ffffff;
 			}
 
 			.icon.major.accent5 {
-				background: #e5cb95;
+                background-image: url("../images/icon2.png");
+                background-position: center center;
+                background-repeat: no-repeat;
+			/*	background: #e5cb95; */
 				color: #ffffff;
 			}
 
@@ -1225,11 +1233,11 @@
 
 	#banner {
 		background-attachment: scroll,							fixed;
-		background-color: #666;
-		background-image: url("images/overlay.png"), url("../images/banner.jpg");
-		background-position: top left,						center center;
+		background-color: #333;
+		background-image: url("images/overlay.png"), url("../images/logo.png");
+		background-position: top left,						top center;
 		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
+		background-size: auto,							auto;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
@@ -1283,8 +1291,8 @@
 			#banner input[type="reset"].special,
 			#banner input[type="button"].special,
 			#banner .button.special {
-				background: #fff;
-				color: #666 !important;
+				background: #71C775;
+				color: #eee !important;
 			}
 
 /* Main */

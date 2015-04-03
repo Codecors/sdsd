@@ -124,8 +124,8 @@
 
 	#banner {
 		background-attachment: scroll;
-		background-image: url("../../images/banner.jpg");
-		background-position: auto;
+		background-image: url("/images/logo.png");
+		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		-ms-behavior: url("css/ie/backgroundsize.min.htc");
