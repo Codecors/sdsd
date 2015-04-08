@@ -32,7 +32,7 @@
 				<h1><a href="index.html">iRetron</a> Make the world green!</h1>
 				<nav id="nav">
 					<ul id="switch">
-						<li><a href="#homepage">Home</a></li>
+						<li><a class="clickme" id="homepage" href="#">Home</a></li>
                         <li><a href="index.html">Start Selling</a>
                             <ul>
                                 <li><a href="#">iPhone</a></li>
@@ -41,9 +41,15 @@
                                 <li><a href="#">Windows Phone</a></li>
                             </ul>
                         </li>
-                        <li><a href="#howitworks">How it works</a></li>
-                        <li><a href="#faqs">FAQs</a></li>
+                        <li><a class="clickme" id="howitworks" href="#">How it works</a></li>
+                        <li><a class="clickme" id="faqs" href="#">FAQs</a></li>
                         <li><a href="index.html">Buzz</a></li>
+                      <!--  <li><select name="choose" id="choose" class="input-select">
+                            <option value="nul" selected>Make a Selection</option>
+                            <option value="opt1">Option 1</option>
+                            <option value="opt2">Option 2</option>
+                            <option value="opt3">Option 3</option>
+                        </select></li>-->
 
                         <li>
 							<a href="" class="icon fa-angle-down">Layouts</a>
@@ -67,7 +73,7 @@
 				</nav>
 			</header>
 <!-- homepage -->
-        <div id="homepage" class="page-content" style="display: block;">
+        <div id="homepage" class="jqueryOptions">
 		<!-- Banner -->
 			<section id="banner">
 				<h2>iRetron</h2>
@@ -149,7 +155,7 @@
         </div>
 
         <!-- How it works-->
-        <div id="howitworks" class="page-content">
+        <div id="howitworks" class="jqueryOptions">
             <section id="main" class="container">
                 <header>
                     <h2>How it works</h2>
@@ -182,7 +188,7 @@
             </section>
         </div>
         <!-- FAQS -->
-        <div id="faqs" class="page-content">
+        <div id="faqs" class="jqueryOptions">
         <section id="main" class="container">
             <header>
                 <h2>FAQS</h2>
