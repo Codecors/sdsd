@@ -32,7 +32,7 @@
 						clickToHide: true,
 						height: '100%',
 						hidden: true,
-						html: '<div data-action="navList" data-args="nav"></div>',
+						html: '<div id="navPanellist" data-action="navList" data-args="nav"></div>',
 						orientation: 'vertical',
 						position: 'top-left',
 						side: 'left',
@@ -47,11 +47,15 @@
 						position: 'top-left',
 						side: 'top',
 						width: '6em'
-					}
+					},
 
 			}
 		}
 	});
+    skel.on('+narrower', function() {
+        /* Turn on feature for small displays */
+        $("#navPanellist").addClass(clickme);
+    });
 
 	$(function() {
 
@@ -105,5 +109,6 @@
 			}
 
 	});
+
 
 })(jQuery);
