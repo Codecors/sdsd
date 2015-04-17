@@ -98,15 +98,15 @@
 		padding: 4em 0 0 0;
 	}
 
-		#main > header {
+		#main > div > header {
 			margin: 0 2em 1.5em 2em;
 		}
 
-			#main > header h2 {
+			#main > div > header h2 {
 				font-size: 2em;
 			}
 
-			#main > header p {
+			#main > div > header p {
 				font-size: 1em;
 				padding-bottom: 1em;
 			}

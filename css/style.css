@@ -1301,17 +1301,17 @@
 		padding: 4em 0;
 	}
 
-		#main > header {
+		#main > div > header {
 			text-align: center;
 			margin: 0 0 3em 0;
 		}
 
-			#main > header h2 {
+			#main > div > header h2 {
 				font-size: 2.75em;
 				margin: 0;
 			}
 
-			#main > header p {
+			#main > div > header p {
 				border-top: solid 2px #e5e5e5;
 				color: #777;
 				display: inline-block;
@@ -1459,3 +1459,8 @@
         padding: 10px 14px 0px 14px;
     }
 
+#myslider .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}

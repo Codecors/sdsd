@@ -54,7 +54,7 @@
 	});
     skel.on('+narrower', function() {
         /* Turn on feature for small displays */
-        $("#navPanellist").addClass(clickme);
+        $('.clickme').click(contentswitch);
     });
 
 	$(function() {

@@ -12,17 +12,20 @@
 		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.js"></script>
+        <script src="js/jquery.dropotron.min.js"></script>
 		<script src="js/jquery.scrollgress.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
         <script src="js/custom.js"></script>
-		<noscript>
+        <noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-wide.css" />
 		</noscript>
+        <link rel="stylesheet" href="css/owl.theme.css"/>
+        <link rel="stylesheet" href="css/owl.carousel.css"/>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body class="landing">
@@ -76,14 +79,25 @@
 
 		<!-- Banner -->
         <div id="homepage" class="jqueryOptions">
-			<section id="banner">
-				<h2>iRetron</h2>
-				<p>Start to sell your unused iPhone.</p>
-				<ul class="actions">
-					<li><a href="#" class="button special">Start to sell</a></li>
-					<li><a href="#" class="button">Learn More</a></li>
-				</ul>
-			</section>
+            <div id="myslider" class="owl-carousel owl-theme">
+                <!--
+                <div>
+                    <section id="banner">
+                        <h2>iRetron</h2>
+                        <p>Start to sell your unused iPhone.</p>
+                        <ul class="actions">
+                            <li><a href="#" class="button special">Start to sell</a></li>
+                            <li><a href="#" class="button">Learn More</a></li>
+                        </ul>
+                    </section>
+                </div>-->
+                <div class="item">
+                    <img src="images/s1.jpg" alt=""/>
+                </div>
+                <div class="item">
+                    <img src="images/s2.jpg" alt=""/>
+                </div>
+            </div>
         </div>
 
 		<!-- Main -->
