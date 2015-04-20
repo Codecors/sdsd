@@ -630,7 +630,10 @@
 				display: block;
 				width: 100%;
 			}
-
+            .image.prodicon img {
+                display: block;
+                width: 100%;
+            }
 /* List */
 
 	ol {

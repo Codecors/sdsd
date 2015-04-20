@@ -13,11 +13,17 @@ $(document).ready(function() {
     });
     $("#myslider").owlCarousel({
 
-        navigation : true, // Show next and prev buttons
+        navigation : false, // Show next and prev buttons
         slideSpeed : 300,
         paginationSpeed : 400,
-        singleItem:true,
-        autoHeight: true
+        singleItem:true
+       // autoHeight: true
+    });
+    $("#myproducts").owlCarousel({
+        autoPlay: 3000, //Set AutoPlay to 3 seconds
+        itemsCustom : [
+            [0, 4]
+        ]
     });
 });
 
