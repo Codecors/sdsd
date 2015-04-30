@@ -13,7 +13,7 @@ $(document).ready(function() {
     });
 
     $("#myproducts").owlCarousel({
-        autoPlay: 3000, //Set AutoPlay to 3 seconds
+        //autoPlay: 3000, //Set AutoPlay to 3 seconds
         itemsCustom : [
             [0, 4]
         ]

@@ -202,7 +202,7 @@
 			display: inline-block;
 			border-top: solid 2px #e5e5e5;
 			color: #777;
-			margin: 1.5em 0 0 0;
+			margin: 1.5em 0 1em 0;
 			padding: 1.5em 0 0 0;
 			font-style: normal;
 		}
@@ -542,15 +542,15 @@
 		}
 
 		.icon.major {
-			background: #666;
+			background: #DADADA;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
 			display: inline-block;
-			height: 5.5em;
+			height: 8em;
 			line-height: 5.5em;
 			margin: 0 0 2em 0;
-			width: 5.5em;
+			width: 8em;
 		}
 
 			.icon.major:before {
@@ -1276,7 +1276,7 @@
 
 	#banner {
 		background-attachment: scroll,							scroll;
-		background-color: #fff;
+		background-color: #f5f5f5;
 		background-image: url("images/overlay1.png"), url("../images/banner.jpg");
 		background-position: top left,						top center;
 		background-repeat: repeat,							no-repeat;
@@ -1310,7 +1310,7 @@
 		#banner input[type="reset"],
 		#banner input[type="button"],
 		#banner .button {
-			background-color: transparent;
+			background-color: rgba(26,188,156,1);;
 			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
 			color: #fff;
 			min-width: 12em;
@@ -1320,7 +1320,7 @@
 			#banner input[type="reset"]:hover,
 			#banner input[type="button"]:hover,
 			#banner .button:hover {
-				background-color: rgba(255, 255, 255, 0.1);
+				background-color: rgba(29,214,177,1);
 			}
 
 			#banner input[type="submit"]:active,
@@ -1334,7 +1334,7 @@
 			#banner input[type="reset"].special,
 			#banner input[type="button"].special,
 			#banner .button.special {
-				background: #71C775;
+				background: #1ABC9C;
 				color: #eee !important;
 			}
 
@@ -1529,48 +1529,6 @@ a#bbblink img {
     margin-left: 0;
     max-width: 200%;
 }
-a#bbblink.sehzbal,
-a#bbblink.rbhzbal,
-a#bbblink.sehzbul,
-a#bbblink.rbhzbul {
-    width: 200px;
-    height: 76px;
-}
-a#bbblink.sehzbal:hover img,
-a#bbblink.rbhzbal:hover img,
-a#bbblink.ruhzbal:hover img,
-a#bbblink.sehzbul:hover img,
-a#bbblink.rbhzbul:hover img,
-a#bbblink.ruhzbul:hover img {
-    margin-left: -200px;
-}
-a#bbblink.ruhzbal,
-a#bbblink.ruhzbul {
-    width: 200px;
-    height: 90px;
-}
-a#bbblink.sevtbal,
-a#bbblink.rbvtbal,
-a#bbblink.sevtbul,
-a#bbblink.rbvtbul {
-    width: 80px;
-    height: 132px;
-}
-a#bbblink.sevtbal:hover img,
-a#bbblink.rbvtbal:hover img,
-a#bbblink.ruvtbal:hover img,
-a#bbblink.sevtbul:hover img,
-a#bbblink.rbvtbul:hover img,
-a#bbblink.ruvtbul:hover img {
-    margin-left: -80px;
-}
-a#bbblink.ruvtbal,
-a#bbblink.ruvtbul {
-    width: 80px;
-    height: 144px;
-}
-a#bbblink.sehzbam,
-a#bbblink.rbhzbam,
 a#bbblink.sehzbum,
 a#bbblink.rbhzbum {
     width: 150px;
